@@ -1,4 +1,4 @@
-import 'package:egiting/home_screen.dart';
+import 'package:JR_Profile/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'screens/about_screen.dart';
 import 'screens/projects_screen.dart';
@@ -10,6 +10,8 @@ void main() {
 }
 
 class ProfileApp extends StatelessWidget {
+  const ProfileApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,6 +24,8 @@ class ProfileApp extends StatelessWidget {
 }
 
 class NavigationScreen extends StatefulWidget {
+  const NavigationScreen({super.key});
+
   @override
   State<NavigationScreen> createState() => _NavigationScreenState();
 }

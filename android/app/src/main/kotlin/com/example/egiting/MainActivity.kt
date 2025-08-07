@@ -1,4 +1,5 @@
-package com.example.egiting
+package com.yourname.flutterprofileapp
+
 
 import io.flutter.embedding.android.FlutterActivity
 
